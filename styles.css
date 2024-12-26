@@ -336,14 +336,36 @@ body {
     }
 
     .service-card {
-        padding: 1rem;
-    }
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 16px;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }    }
 
     .service-title {
-        font-size: 1.2rem;
-        letter-spacing: 0.05rem;
+        font-size: 1.5em;
+        margin-bottom: 12px;
+    }
+    .service-benefits {
+        list-style-type: none; /* Elimina los bullets */
+        padding: 0;
     }
 
+    .service-benefits li {
+        position: relative;
+        padding-left: 25px; /* Espacio para el icono */
+        margin-bottom: 10px;
+    }
+
+    .service-benefits li::before {
+        content: "✓"; /* Símbolo de check */
+        position: absolute;
+        left: 0;
+        color: rgb(244, 122, 9); /* Color del tick */
+        font-weight: bold;
+    }
+    
     .portfolio {
         padding: 2rem 1rem;
     }
