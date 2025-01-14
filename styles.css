@@ -338,9 +338,9 @@ footer {
 }
 
 
-.icono-telefono {
+.social-links a i.fa-phone-square {
     display: inline-block;
-    transform: rotate(-90deg);  /* Cambiado de 90deg a -90deg */
+    transform: rotate(-90deg);
 }
 
 /* Media query for mobile responsiveness */
