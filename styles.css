@@ -336,10 +336,13 @@ footer {
     background-color: var(--primary-yellow);
     color: var(--bauhaus-black);
 }
+
+
 .icono-telefono {
     display: inline-block;
     transform: rotate(90deg);
 }
+
 /* Media query for mobile responsiveness */
 @media (max-width: 768px) {
     .footer {
